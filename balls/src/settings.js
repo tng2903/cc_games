@@ -1,0 +1,1 @@
+window._CCSettings={platform:"web-mobile",groupList:["default","balls","ai","wal"],collisionMatrix:[[false],[false,false,true,true],[false,true,false],[false,true,false,false]],hasResourcesBundle:false,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/scene/game.fire",orientation:"",jsList:[]};
