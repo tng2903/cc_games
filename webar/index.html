@@ -135,11 +135,11 @@
         var db = indexedDB.open("dummy_indexdb", 1); // iOS 14.6 fix; the call to open indexdb hangs forever otherwise
 
         const buildUrl = "Build";
-        const loaderUrl = buildUrl + "/ar.loader.js";
+        const loaderUrl = buildUrl + "/test_tng.loader.js";
         const config = {
-            dataUrl: buildUrl + "/ar.data.unityweb",
-            frameworkUrl: buildUrl + "/ar.framework.js.unityweb",
-            codeUrl: buildUrl + "/ar.wasm.unityweb",
+            dataUrl: buildUrl + "/test_tng.data.unityweb",
+            frameworkUrl: buildUrl + "/test_tng.framework.js.unityweb",
+            codeUrl: buildUrl + "/test_tng.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "test_tng",
