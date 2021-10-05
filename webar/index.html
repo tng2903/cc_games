@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>instant-tracking-3d-model</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <script type="text/javascript" src="https://libs.zappar.com/zappar-cv/0.3.11/zappar-cv.js"></script>
     <style>
         html {
             box-sizing: border-box;
@@ -131,15 +130,16 @@
             <div class="spinner"></div>
         </div>
     </div>
+    <script type="text/javascript" src="https://libs.zappar.com/zappar-cv/0.3.12/zappar-cv.js"></script>
     <script>
         var db = indexedDB.open("dummy_indexdb", 1); // iOS 14.6 fix; the call to open indexdb hangs forever otherwise
 
         const buildUrl = "Build";
         const loaderUrl = buildUrl + "/AR.loader.js";
         const config = {
-            dataUrl: buildUrl + "/AR.data.br",
-            frameworkUrl: buildUrl + "/AR.framework.js.br",
-            codeUrl: buildUrl + "/AR.wasm.br",
+            dataUrl: buildUrl + "/AR.data.unityweb",
+            frameworkUrl: buildUrl + "/AR.framework.js.unityweb",
+            codeUrl: buildUrl + "/AR.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "instant-tracking-3d-model",
